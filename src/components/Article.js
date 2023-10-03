@@ -1,11 +1,14 @@
 import React from "react";
 
-function Article() {
+function Article(props) {
+
   return (
     <div>
-      {/* please pass this test */}
+      <p>please pass this test</p>
     </div>
   );
+  
 }
 
 export default Article;
+
